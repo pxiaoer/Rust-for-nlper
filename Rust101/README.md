@@ -15,14 +15,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
 创建：
-'''bash
+
+```bash
 cargo  new --bin helloworld 
-'''
+```
 
-生成helloworld项目
+生成helloworld项目结构：
 
-
-项目结构：
 ```bash
 helloworld
     ├── Cargo.toml
@@ -48,7 +47,8 @@ edition = "2021"
 - edition 版次  目前最新为2021
 
 
-src/main.rs内容：
+
+再看src/main.rs内容：
 
 ```rust
 fn main() {
@@ -56,16 +56,20 @@ fn main() {
 }
 ```
 
-很简单的helloworld输出，但是要注意，fn main是程序的入口，类似于C语言的main函数，但是不同的是，Rust的main函数不需要返回值，也不需要写return，最后一行的分号也可以省略。
+很简单的，打印helloworld输出。
+
+但是要注意，fn main是程序的入口，类似于C语言的main函数，但是不同的是，Rust的main函数不需要返回值，也不需要写return，最后一行的分号也可以省略。
 
 
 编译：
 
-cargo build
+```cargo build```
 
 运行：
-cargo run 
+```cargo run```
 
+
+打印的结果：
 
 ```bash
 (base) ➜  helloworld git:(main) ✗ cargo run
