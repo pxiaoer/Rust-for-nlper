@@ -77,3 +77,34 @@ fn main() {
      Running `target/debug/helloworld`
 Hello, world!
 ```
+
+
+
+### 基础类型 
+
+rust使用let赋值
+
+- 数字类型： 整数，浮点数
+- 布尔类型： true，false
+- 字符类型： char，Unicode  
+- 字符串类型： String，&str
+- 数组
+- 动态数组
+- 哈希表
+
+### 符合类型
+
+- 元组
+- 结构体
+- 枚举
+
+### 控制语句
+- 分支
+- 循环
+
+### 函数和模块
+- 函数
+- 闭包
+- 模块
+
+
